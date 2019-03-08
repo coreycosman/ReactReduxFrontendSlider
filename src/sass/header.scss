@@ -1,0 +1,18 @@
+@import 'variables';
+
+.header {
+  background: yellow;
+  height: 10%;
+  &--nav {
+    width: 50%;
+    height: 50%;
+    float: right;
+    background-color: green;
+  }
+  &--title {
+    width: 40%;
+    height: 50%;
+    float: left;
+    background-color: green;
+  }
+}

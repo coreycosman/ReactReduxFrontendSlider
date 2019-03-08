@@ -1,0 +1,23 @@
+.about {
+  &--detail-container {
+    border: 0.5em solid green;
+    display: flex;
+    align-items: left;
+    align-self: flex-end;
+    justify-content: flex-end;
+    flex-direction: column;
+    width: 50%;
+    height: 50%;
+    &--title {
+      background-color: red;
+      width: 100%;
+      height: 15%;
+    }
+    &--detail {
+      width: 100%;
+      height: 100%;
+      text-align: center;
+      background-color: yellow;
+    }
+  }
+}
